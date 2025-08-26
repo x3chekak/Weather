@@ -1,0 +1,49 @@
+.cardforecast {
+    width: 350px;
+    height: 420px;
+    border: 1px solid lightgray;
+    background-color: aliceblue;
+    box-shadow: 10px 5px 5px lightgray;
+    border-radius: 10px;
+}
+
+.cardforecast__body {
+    padding: 40px;
+    
+    height: 100%;
+}
+
+.cardforecast_timesofday {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.cardforecast_condition {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardforecast_temperature {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.cardforecast_wind {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.cardforecast_precip {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.cardforecast_date, .temperature_title, .wind_title, .precip_title{
+    padding-left: 20px;
+    font-weight: 600;
+}

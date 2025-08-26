@@ -1,0 +1,13 @@
+.main_button {
+width: 100%;
+height: 25px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border: 1px solid gray;
+background-color: aliceblue;
+cursor: pointer;
+}
+
+.main_button:hover{
+    background-color: rgb(193, 230, 249);
+}

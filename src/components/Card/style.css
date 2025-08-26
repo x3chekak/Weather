@@ -1,0 +1,48 @@
+.card {
+    width: 350px;
+    height: 420px;
+    border: 1px solid lightgray;
+    background-color: aliceblue;
+    box-shadow: 10px 5px 5px lightgray;
+    border-radius: 10px;
+}
+
+.card__body {
+    padding: 40px;
+    display: flex;
+    height: 100%;
+}
+
+.weather_info {
+    display: flex;
+    height: 100%;
+    width: 60%;
+    flex-direction: column;
+    
+}
+
+.icon {
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    align-items: flex-start
+}
+
+.temperature {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.feelslike {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.wind_kph {
+    margin-bottom: 10px;
+}
+
+.pressure {
+    margin-bottom: 10px;
+}

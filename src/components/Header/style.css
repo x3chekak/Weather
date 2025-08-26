@@ -1,0 +1,37 @@
+.header {
+    background: linear-gradient(30deg, #1bdf9e, rgb(45, 172, 226));
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    padding: 20px 20px 0px 20px;
+}
+
+.header__title {
+    color: white;
+}
+
+.header__button {
+    background-color:rebeccapurple;
+    color: aliceblue;
+    margin: 10px;
+}
+
+.header__input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.forcast_list {
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none;
+    
+}
+
+.three_day {
+    width: 100%;
+}
