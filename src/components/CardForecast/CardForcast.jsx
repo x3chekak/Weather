@@ -1,7 +1,6 @@
 import './style.css';
 
 const CardForecast = ({data, index}) => {
-    console.log(index)
     return(
         <div className="cardforecast">
             <div className="cardforecast__body">
