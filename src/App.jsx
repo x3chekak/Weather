@@ -68,7 +68,7 @@ function App() {
 
   const handleWeatherFetch = (town) => {
     if (town) {
-    fetch(`http://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${town}&days=7`)
+    fetch(`https://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${town}&days=7`)
       .then((res) => res.json())
       .then((data) => {
         setData(data)
